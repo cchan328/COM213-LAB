@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pacific Trails Resort - Reservations</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="pacific.css">
+    </head>
+    <body>
+        <header>
+            <h1>Pacific Trails Resort</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="yurts.html">Yurts</a>
+            <a href="activities.html">Activities</a>
+            <a href="reservations.html">Reservations</a>
+        </nav>
+        <main>
+            <h2>Reservation at Pacific Trails</h2>
+            <h3>Contact us today</h3>
+            <p>REquires form are marked as a </p>
+            <form action="https://webdevbasics.net/scripts/pacific.php" method="post">
+                <label for="myFName">*First Name:</label>
+                <input type=""text" id="myFName" name="myFName" required>
+                
+                <label for="myLName">*Last Name:</label>
+                <input type=""text" id="myLName" name="myLName" required>
+                
+                <label for="myEmail">*Email:</label>
+                <input type="myEmail" id="myEmail" name="myEmail" required>
+                
+                <label for="myPNumber">Telephone:</label>
+                <input type=""tel" id="myPNumber" name="myPNumber">
+
+                <label for="myArrivalDate">Arrival Date:</label>
+                <input type="date" id="myArrivalDate" name="myArrivalDate">
+
+                <label for="myNumberOfNights">Number of nights:</label>
+                <input type="number" id="myNumberOfNights" name="myNumberOfNights">
+
+                <label for="myComments">*Comments</label>
+                <textarea id="myComments" name="myComments" rows="2" cols="30" required></textarea>
+
+                <input type="submit" value="submit reservation">
+                <input type="reset" value="resetForm">
+        
+            </form>
+            <p><span class="resort">Pacific Trails Resort</span> offers a special lodging experience on the California North Coast with panoramic views of the Pacific Ocean. Your stay at <span class="resort">Pacific Trails Resort</span> includes a sumptuously appointed private yurt and a cooked-to-order breakfast each morning.</p>
+            <div id="contact">
+                <span class="resort">Pacific Trails Resort</span><br>
+                102010 Pacific Trails Road<br>
+                Zephyr, CA 95555<br>
+                888-555-5555
+            </div>
+        </main>
+        <footer>
+            Copyright &copy; 2012 Pacific Trails Resort
+            <p><a href="mailto:youremail@my.centennialcollege.ca"></a></p>
+        </footer>
+    </body>
+</html>
